@@ -1,1 +1,16 @@
 /* write your override styles here */
+#wall .tag-1 {
+    display: none;
+    background: url:(https://scontent.fnbo1-1.fna.fbcdn.net/v/t1.6435-9/146788247_352639579120186_3463589885151767040_n.jpg?stp=dst-jpg_p180x540&_nc_cat=109&ccb=1-7&_nc_sid=e3f864&_nc_ohc=NBcFhVAjqooAX_saVZj&_nc_ht=scontent.fnbo1-1.fna&oh=00_AfDJbjGOLnAQT0007vzzqhNItHaNGS9v2RbancgGO40pBw&oe=65280C3A) repeat;
+  }
+  .tag-1 {
+    background: url(../images/tag-1.png) repeat;
+    z-index: 7;
+    display: block;
+  }
+  .tag-1, #tag-2, #tag-3, #tag-4, #tag-5, #tag-6, #tag-7 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 980px;
+    height: 622px;
